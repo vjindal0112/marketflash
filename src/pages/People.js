@@ -6,7 +6,7 @@ export default function People() {
   return (
     <>
       <Navbar />
-      <OnboardingTagline>Connect Mailchimp</OnboardingTagline>
+      <OnboardingTagline>List of People</OnboardingTagline>
       <Subtitle>Send emails seamlessly through the platform</Subtitle>
       <Button to="/email">Connect</Button>
     </>
