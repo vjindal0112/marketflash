@@ -82,9 +82,6 @@ export const Subtitle = styled.h1`
 export const OnboardingTagline = styled(Tagline)`
   @media (min-width: 796px) {
     font-size: 48px;
+    margin-bottom: 12px;
   }
-`;
-
-export const ButtonLogo = styled.img`
-  height: 40px;
 `;

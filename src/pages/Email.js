@@ -44,7 +44,7 @@ export default function Email() {
 
   function navigate() {
     setLoading(false);
-    history.push("/people")
+    history.push("/people");
   }
 
   function startLoad() {

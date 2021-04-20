@@ -1,8 +1,13 @@
+import styled from "styled-components";
 
-export default function Person({name, email, conversion}) {
+const TableData = styled.td``;
+
+export default function Person({ name, email, openRate }) {
   return (
     <tr>
-      <li>Name</li>
+      <td>{name}</td>
+      <td>{email}</td>
+      <td>{openRate}%</td>
     </tr>
-  )
+  );
 }

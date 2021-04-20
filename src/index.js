@@ -9,6 +9,7 @@ import Salesforce from './pages/Salesforce'
 import Mailchimp from './pages/Mailchimp'
 import Email from './pages/Email'
 import People from './pages/People'
+import Sent from './pages/Sent'
 
 const routing = (
   <Router>
@@ -19,6 +20,7 @@ const routing = (
       <Route path="/mailchimp" component={Mailchimp} />
       <Route path="/email" component={Email} />
       <Route path="/people" component={People} />
+      <Route path="/sent" component={Sent} />
     </Switch>
   </Router>
 )

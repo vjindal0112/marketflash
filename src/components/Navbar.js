@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Bar = styled.div`
   position: relative;
@@ -44,7 +45,9 @@ export default function Navbar() {
     <Bar>
       <Spacer></Spacer>
       <Logo src="/logo.png" />
-      <NavName>MarketFlash</NavName>
+      <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <NavName>MarketFlash</NavName>
+      </Link>
     </Bar>
   );
 }
